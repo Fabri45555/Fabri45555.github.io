@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Sometype Mono';
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+}
