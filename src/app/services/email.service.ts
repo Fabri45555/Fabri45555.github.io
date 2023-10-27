@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class EmailService {
-  emailUrl='http://localhost:8080/email/'
+  emailUrl='http://localhost:8080/emlInv/'
   httpOptions={headers: new HttpHeaders({'Content-Type' : 'application/json'})};
 
 constructor(private Http:HttpClient) { }

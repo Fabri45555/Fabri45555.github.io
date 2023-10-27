@@ -8,8 +8,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "*")
-@RequestMapping("/email")
+@CrossOrigin(origins = "*",allowedHeaders = "*")
+@RequestMapping("/emlInv")
 public class EmailController {
 
   private final EmailServiceImpl emailService;
